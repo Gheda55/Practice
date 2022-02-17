@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="css/styles.css" >
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
 
-  <title>Frontend Mentor | NFT preview card component</title>
+  <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -18,30 +19,32 @@
   </style>
 </head>
 <body>
-
-  <div class="card">
-    <img class="equilibrium" src="images/image-equilibrium.jpg" alt="equilibrium.jpg">
-    <h3>Equilibrium #3429</h3>
-    <p class="main-text">Our Equilibrium collection promotes balance and calm.</p>
-
-       <img class="ethereum"src="images/icon-ethereum.svg" alt="ethereum.svg">
-       <p class="eth">0.041 ETH</p>
-       <img class="clock" src="images/icon-clock.svg" alt="clock.svg">
-       <p class="days">3 days left</p>
-
-    <hr>
-
-    <img class="avatar" src="images\image-avatar.png" alt="avatar.png">
-
-    <p class="creation">Creation of <span class="jules">Jules Wyvern</span></p>
-
+  <img class="desktop-background" src="images\pattern-background-desktop.svg" alt="pattern-background-desktop.svg">
+  <div class="main-container">
+    <img class="hero" src="images\illustration-hero.svg" alt="illustration-hero.svg">
+    <h1>Order Summary</h1>
+    <p class="main-text">You can now listen to millions of songs, audiobooks, and podcasts on any
+    device anywhere you like!</p>
+    <div class="middle-container">
+      <div class="icon">
+        <img class="icon-music" src="images\icon-music.svg" alt="icon-music.svg">
+      </div>
+      <div class="div-plan">
+        <p class="plan">Annual Plan</p>
+        <p class="price">&nbsp;$59.99/year</p>
+      </div>
+      <div class="div-change">
+        <p class="change">Change</p>
+      </div>
+    </div>
+      <div class="div-buttons">
+        <a href="#" class="myButton">Proceed to Payment</a>
+        <a href="#" class="myButton2">Cancel Order</a>
+      </div>
   </div>
-
-
-
-  <div class="attribution">
+   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Dan Gheorghe</a>.
-  </div>
+   </div>
 </body>
 </html>

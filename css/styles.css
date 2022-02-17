@@ -1,85 +1,152 @@
 body {
-  background-color: #0D192B;
-  font-family: 'Outfit', sans-serif;
+  margin: 0px;
+  background-color: #E0E8FF;
   text-align: center;
-}
-
-h3 {
-  text-align: left;
-  color: white;
-  margin-left: 5%;
-  font-weight: 300;
-}
-
-hr {
-  border-color: #2F415B;
-  width: 86%;
-  border-top: 2px;
-}
-
-.card {
-  background-color: #14253D;
-  margin:10% 37% auto 37%;
-  border-radius: 5%;
-  margin-bottom: 50px;
-}
-
-.equilibrium {
-  max-width: 90%;
-  max-height: 90%;
-  margin: 5% 5% auto 5%;
-  border-radius: 5%;
-}
-
-.main-text {
-  font-size: 18px;
-  text-align: left;
-  color: #8BACDA;
-  margin-left: 5%;
-  font-weight: 100;
-}
-
-.ethereum {
-  display: inline-block;
-  height: 14px;
-  width: 9px;
-}
-
-.eth {
-  display: inline-block;
-  margin-right: 120px;
-  color: #00FFF7;
-}
-
-.clock {
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-}
-
-.days {
-  display: inline-block;
-  color: #8BACDA;
-}
-
-.avatar {
-  height: 28px;
-  width: 28px;
-  margin: 10px 10px auto auto;
-  border: 1px solid white;
-  border-radius: 50%;
-}
-
-.creation {
-  display: inline-block;
-  color: #8BACDA;
-  margin-top: -20px;
   position: relative;
-  bottom: 10px;
-  margin-right: 80px;
-  padding-bottom: 20px;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-.jules {
-  color: white;
+h1 {
+  margin-top: 40px;
+  color: #1F2F56;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+p{
+  font-size: 16px;
+  color: #7280A7;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.div-plan {
+  display: inline-block;
+  position: absolute;
+  left: 75px;
+  top: 17px;
+}
+
+.div-change{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}
+.main-text {
+  margin: auto 50px auto 50px;
+}
+
+.plan {
+  color: #1F2F56;
+  font-weight: 900;
+  margin:auto 30px 5px 14px;
+}
+
+.price {
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.change {
+  text-decoration: underline;
+  color: #3829E0;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.desktop-background {
+  width: 100%;
+}
+
+.hero {
+  max-height: 100%;
+  max-width: 100%;
+  border-top-left-radius: 5% 10%;
+  border-top-right-radius: 5% 10%;
+}
+
+.main-container {
+  position: absolute;
+  top: 100px;
+  background-color: white;
+  width: 72vh;
+  margin: auto 35% auto 35%;
+  border-radius: 5%;
+}
+
+.middle-container {
+  width: 340px;
+  height: 90px;
+  background-color: #F5F7FF;
+  display: inline-block;
+  margin: 5% auto 5% auto ;
+  border-radius: 10px;
+  position: relative;
+}
+
+.div-buttons {
+  margin-top: 10px;
+}
+
+.attribution {
+  margin: 500px auto 50px auto;
+
+}
+
+.myButton {
+	box-shadow: 1px 15px 15px 2px #E0E8FF;
+	background-color:#3829E0;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:15px 102px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#ADD8E6;
+  color: grey;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+	box-shadow: 0px 10px 14px -7px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#7280a7;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:3px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
 }
